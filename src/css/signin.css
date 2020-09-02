@@ -1,0 +1,213 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#box {
+  width: 1470px;
+  margin: 0 auto;
+}
+#box > header {
+  width: 1470px;
+  height: 60px;
+  background: #f2f2f2;
+  position: relative;
+}
+#box > header > div {
+  width: 155px;
+  height: 30px;
+  margin-left: 127px;
+  margin-top: 15px;
+  float: left;
+}
+#box > header > div > img {
+  width: 134px;
+  height: 30px;
+}
+#box > header > h1 {
+  font-size: 20px;
+  float: left;
+  margin-top: 17px;
+  margin-left: -10px;
+}
+#box > div:nth-child(2),
+#box div:nth-child(3) {
+  position: absolute;
+  left: 130px;
+  width: 340px;
+  height: 63px;
+  line-height: 63px;
+  border-radius: 10px;
+  padding-left: 50px;
+}
+#box > div:nth-child(2) {
+  background: #f2f2f2;
+  top: 110px;
+}
+#box > div:nth-child(2) > span {
+  margin-right: 10px;
+}
+#box > div:nth-child(3) {
+  top: 173px;
+}
+#box > div:nth-child(3) > span {
+  margin-right: 10px;
+}
+#box > div:nth-child(4) {
+  position: absolute;
+  top: 155px;
+  left: 575px;
+  display: block;
+  text-align: center;
+}
+#box > div:nth-child(4) > p {
+  font-size: 40px;
+  font-weight: 300;
+}
+#box > div:nth-child(4) > span > a {
+  text-decoration: none;
+  color: blue;
+}
+#box > div:nth-child(4) > span > a > span {
+  color: #0000ff !important;
+}
+#box > div:nth-child(4) > #form {
+  width: 430px;
+  height: 560px;
+  margin-top: 60px;
+}
+#box > div:nth-child(4) > #form > div {
+  width: 430px;
+  height: 50px;
+  background: #f2f2f2;
+  float: left;
+  line-height: 50px;
+  border-radius: 10px;
+}
+#box > div:nth-child(4) > #form > div:first-child > span {
+  float: left;
+  margin-left: 15px;
+}
+#box > div:nth-child(4) > #form > div:first-child > select {
+  height: 20px;
+  border: none;
+  background: #f2f2f2;
+  font-size: 15px;
+  float: right;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(2) {
+  margin-top: 20px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(2) > select {
+  float: left;
+  height: 20px;
+  border: none;
+  background: #f2f2f2;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(2) > input {
+  width: 240px;
+  height: 34px;
+  margin-left: -100px;
+  border: none;
+  border-left: 1px solid #d9d9d9;
+  background: #f2f2f2;
+  padding-left: 10px;
+  font-size: 15px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(4),
+#box > div:nth-child(4) > #form div:nth-child(5),
+#box > div:nth-child(4) > #form div:nth-child(6) {
+  margin-top: 20px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(4) > input,
+#box > div:nth-child(4) > #form div:nth-child(5) > input,
+#box > div:nth-child(4) > #form div:nth-child(6) > input {
+  border: none;
+  font-size: 15px;
+  background: #f2f2f2;
+  float: left;
+  padding-left: 10px;
+  height: 50px;
+  border-radius: 10px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(4) {
+  margin-top: 20px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(4) > a {
+  text-decoration: none;
+  color: #97c6f7;
+  float: right;
+  margin-right: 15px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(5) > span,
+#box > div:nth-child(4) > #form div:nth-child(6) > span {
+  float: right;
+  margin-right: 15px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(7) {
+  margin-top: 20px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(7) > span {
+  float: left;
+  margin-left: 15px;
+}
+#box > div:nth-child(4) > #form > div:nth-child(7) > select {
+  height: 20px;
+  border: none;
+  background: #f2f2f2;
+  font-size: 15px;
+  float: right;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+#box > div:nth-child(4) > #form > input:last-child {
+  width: 300px;
+  height: 50px;
+  background: #9fceff;
+  font-size: 18px;
+  color: white;
+  margin-top: 60px;
+  border: none;
+  border-radius: 10px;
+}
+#box > footer {
+  width: 100%;
+  height: 100px;
+  background: #f2f2f2;
+  margin-top: 1000px;
+}
+#box > footer > ul {
+  height: 5px;
+  list-style: none;
+  margin-left: 380px;
+  padding-top: 30px;
+}
+#box > footer > ul > li {
+  float: left;
+}
+#box > footer > ul > li > a {
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid #aaa;
+  padding-right: 15px;
+  margin-left: 15px;
+}
+#box > footer > ul > li:last-child > a {
+  border: none;
+}
+#box > footer > div {
+  float: left;
+  color: #aaa;
+  margin-left: -490px;
+  margin-top: 25px;
+}

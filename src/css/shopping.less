@@ -1,0 +1,501 @@
+@charset 'utf-8';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+// 版芯
+#box{
+
+    // 顶部
+    &>div:first-child{
+        min-width: 1200px;
+        height: 36px;
+        background: #f9f9f9;
+        line-height: 36px;
+
+        // 左右导航盒子
+        &>div{
+            width: 1200px;
+            margin: 0 auto;
+            // 共有样式
+            &>div{
+                &>ul{
+                    list-style: none;
+                    &>li{
+                        float: left;
+                        &>a{
+                            text-decoration: none;
+                            color: #a4a4a4;
+                            font-size: 13px; 
+                            border-right: 1px solid #d3d3d3;
+                            padding: 0 8px;
+                        }
+                        &>a:hover{
+                            color: #ca141d;
+                        }
+                    }
+                }
+            }
+            // 左边导航
+            &>div:first-child{
+                float: left;
+                &>ul{
+                    &>li:first-child{
+                        &>a{
+                            padding-left: 0;
+                        }
+                    }
+                    &>li:last-child{
+                        &>a:last-child{
+                            border: none;
+                         }
+                    }
+                }
+            }
+            // 右边导航
+            &>div:last-child{
+                float: right;
+                &>ul{
+                    &>li:first-child{
+                        &>a:first-child{
+                            border: none;
+                        }
+                    }
+                    &>li:last-child{
+                        &>a:last-child{
+                            border: none;
+                            padding-right: 0;
+                         }
+                    }
+                }
+            }
+        }
+    }
+
+    // 我的购物车
+    &>div:nth-child(2){
+        min-width: 1200px;
+        height: 50px;
+        background: white;
+        margin-top: 10px;
+        // 盒子
+        &>div:first-child{
+            width: 1200px;  
+            margin: 0 auto;
+            padding: 10px 0;
+            // logo
+            &>div:first-child{
+                &>a{
+                    text-decoration: none;
+                    color: black;
+                    float: left;
+                    &>img{
+                        width: 120px;
+                        height: 36px;
+                    }
+                    &>span{
+                        font-size: 22px;
+                        margin-left: 26px;
+                    }
+                }
+            }
+            // 进度条
+            // &>div:last-child{
+            //     float: right;
+            // }
+        }
+    }
+
+    // 购物车中间部分
+    &>div:nth-child(3){
+        width: 1200px;
+        margin: 0 auto;
+        // 登录条
+        &>div:first-child{
+            border: 1px solid #eace85;
+            background: #fffdee;
+            color: #ca141d;
+            line-height: 48px;
+            padding: 0 20px;
+            margin-top: 10px;
+            &>a{
+                width: 70px;
+                height: 30px;
+                line-height: 30px;
+                display: inline-block;
+                background: #ca141d;
+                color: #fff;
+                text-align: center;
+                margin-left: 10px;
+                border-radius: 2px;
+                text-decoration: none;
+            }
+        }
+        // 商品部分大盒子
+        &>div:nth-child(2){
+            // 空矩形
+            &>div:first-child{
+                height: 20px;
+            }
+            // 购物车商品详情
+            &>div:nth-child(2){
+                padding-top: 135px;
+                height: 365px;
+                background: #fff;
+                text-align: center;
+                color: #7f7f7f;
+                font-size: 14px;
+                &>p{
+                    font-size: 18px;
+                    color: #a4a4a4;
+                    margin-bottom: 16px;
+                }
+                &>a{
+                    width: 172px;
+                    height: 46px;
+                    line-height: 46px;
+                    font-size: 18px;
+                    color: #fff;
+                    display: block;
+                    margin: 0 auto;
+                    background: #ca141d;
+                    border-radius: 2px;
+                    text-decoration: none;
+                }
+            }
+        }
+        // 已删除的商品
+        &>div:nth-child(3){
+            // h1文字和列表
+            &>div:first-child{
+                line-height: 40px;
+                color: #a4a4a4;
+                border-bottom: 1px solid #eaeaea;
+                &>h2{
+                    color: #3a3a3a;
+                    font-size: 18px;
+                    line-height: 1;
+                    margin: 30px 0 10px;
+                }
+                &>ul{
+                    list-style: none;
+                    background: #fff;
+                    padding: 0 40px 0 70px;
+                    &>li:first-child{
+                        width: 700px;
+                        text-align: left;
+                        margin-left: 0;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                    &>li{
+                        float: left;
+                        float: left;
+                        width: 100px;
+                        margin-left: 30px;
+                        text-align: center
+                    }
+                }
+            }
+            // 商品
+            &>div:nth-child(2){
+                &>ul{
+                    list-style: none;
+                    background: #fff;
+                    padding: 0 40px 0 70px;
+                    &>li{
+                        float: left;
+                        width: 100px;
+                        margin-left: 30px;
+                        text-align: center
+                    }
+                    &>li:first-child{
+                        width: 700px;
+                        text-align: left;
+                        margin-left: 0;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        margin-top: 25px;
+                    }
+                    &>li:nth-child(2),li:nth-child(3){
+                        float: left;
+                        width: 100px;
+                        margin-left: 30px;
+                        text-align: center;
+                        margin-top: 25px;
+                    }
+                    &>li:last-child{
+                        &>a{
+                            text-decoration: none;
+                            width: 86px;
+                            height: 28px;
+                            line-height: 28px;
+                            font-size: 12px;
+                            display: block;
+                            border: 1px solid #ddd;
+                            margin: 20px auto 0;
+                            border-radius: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //尾部
+    footer{
+        width: 100%;
+        height: 458px;
+        background: #f9f9f9;
+        position: absolute;
+        top: 800px;
+
+        // 百强企业 全国联保
+        &>div:first-child{
+            width: 1200px;
+            height: 91px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            border-bottom: 2px solid #efefef;
+            &>a{
+                display: inline-block;
+                text-decoration: none;
+                font-size: 17px;
+                color: black;
+                &>span{
+                    font-size: 45px;
+                    float: left;
+                    line-height: 91px;
+                }
+                &>p{
+                    float: left;
+                    line-height: 91px;
+                }
+            }
+            &>a:nth-child(3){
+                &>p{
+                    margin-left: 6px;
+                }
+            }
+        }
+
+        // 在线客服
+        &>div:nth-child(2){
+            width: 1200px;
+            height: 235px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+
+            // 左
+            &>div:first-child{
+                width: 805px;
+                height: 235px;
+                display: flex;
+                justify-content: space-between;
+                &>div{
+                    margin-top: 35px;
+                    &>span{
+                        color: #333;
+                    }
+                    &>ul{
+                        list-style: none;
+                        margin-top: 19px;
+                        &>li{
+                            &>a{
+                                text-decoration: none;
+                                font-size: 12px;
+                                color: #777;
+                            }
+                            &>a:hover{
+                                color: #cb242b;
+                            }
+                        }
+                    }
+                }
+                &>div:first-child{
+                    &>span{
+                        font-size: 15px;
+                    }
+                }
+                &>div:first-child{
+                     &>span{
+                        font-size: 15px;
+                    }
+                }
+                &>div:first-child{
+                     &>span{
+                        font-size: 15px;
+                    }
+                }
+                &>div:first-child{
+                     &>span{
+                        font-size: 15px;
+                    }
+                }
+                &>div:first-child{
+                     &>span{
+                        font-size: 15px;
+                    }
+                }
+                &>div:first-child{
+                     &>span{
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            // 右
+            &>div:last-child{
+                width: 300px;
+                height: 235px;
+                // background: pink;
+                &>div{
+                    width: 300px;
+                    height: 181px;
+                    border-left: 1px solid #e8e8e8;
+                    margin-top: 27px;
+                    &>h1{
+                        text-align: center;
+                        color: #575757;
+                        margin-top: 13px;
+                    }
+                    &>p{
+                        font-size: 14px;
+                        color: #575757;
+                        text-align: center;
+                        margin-top: 15px;
+                    }
+                    &>div:nth-child(3){
+                        width: 190px;
+                        height: 40px;
+                        background: #333;
+                        border-radius: 20px;
+                        margin: 0 auto;
+                        margin-top: 16px;
+                        display: flex;
+                        justify-content: center;
+                        line-height: 40px;
+                        &>span{
+                            font-size: 15px;
+                            color: white;
+                        }
+                        &>p{
+                            color: white;
+                            font-size: 15px;
+                        }
+                    }
+                    &>div:last-child{
+                        width: 232px;
+                        height: 23px;
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 0 auto;
+                        margin-top: 31px;
+                        &>span{
+                            font-size: 15px;
+                            color: #303030;
+                        }
+                        &>ul{
+                            width: 140px;
+                            height: 23px;
+                            list-style: none;
+                            display: flex;
+                            justify-content: space-between;
+                            &>li{
+                                &>a{
+                                    text-decoration: none;
+                                    &>span{
+                                        color: #303030;
+                                        font-size: 23px;
+                                    } 
+                                }
+                               
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // VMALL
+        &>div:nth-child(3){
+            width: 1200px;
+            height: 128px;
+            margin: 0 auto;
+            position: relative;
+            border-top: 1px solid #ececec;
+            &>div:first-child{
+                width: 90px;
+                height: 19px;
+                position: absolute;
+                top: 33px;left: 0;
+                &>img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            // 中间文字
+            &>div:nth-child(2){
+                position: absolute;
+                top: 33px;left: 113px;
+                &>ul{
+                    list-style: none;
+                    &>li{
+                        float: left;
+                        font-size: 12px;
+                        &>a{
+                            text-decoration: none;
+                            color: #777;
+                            border-right: 2px solid #e7e7e7;
+                            margin-left: 6px;
+                            padding-right: 7px;
+                        }
+                        &>a:hover{
+                            color: #cb242b;
+                        }
+                    }
+                    &>li:first-child{
+                        &>a{
+                            margin-left: 0;
+                        }
+                    }
+                    &>li:last-child{
+                        &>a{
+                            border: none;
+                        }
+                    }
+                }
+                &>span{
+                    font-size: 12px;
+                    color: #a4a4a4;
+                }
+            }
+
+            // 营业执照logo
+            &>div:last-child{
+                width: 77px;
+                height: 25px;
+                border: 1px solid #dfdfdf;
+                position: absolute;
+                top: 31px;right: 0;
+                &>a{
+                    text-decoration: none;
+                    &>img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                
+            }
+        }
+    }
+
+}

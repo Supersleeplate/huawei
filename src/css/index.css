@@ -1,0 +1,885 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#bigbox {
+  width: 1455px;
+  margin: 0 auto;
+}
+#bigbox header {
+  width: 1455px;
+  height: 101px;
+  overflow: hidden;
+}
+#bigbox header img {
+  height: 101px;
+  margin-left: -335px;
+}
+#bigbox #mokuai2 {
+  position: relative;
+}
+#bigbox #mokuai2 #action {
+  width: 1455px;
+  height: 40px;
+  background: #000;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #ccc;
+}
+#bigbox #mokuai2 #action ul {
+  list-style: none;
+  margin-left: 120px;
+}
+#bigbox #mokuai2 #action ul li {
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+  float: left;
+}
+#bigbox #mokuai2 #action ul li a {
+  text-decoration: none;
+  color: #ccc;
+  border-left-width: 1px;
+  border-left-color: #ccc;
+  border-left-style: solid;
+  padding: 0 8px 0 8px;
+}
+#bigbox #mokuai2 #action ul li .one:first-child {
+  border: none;
+}
+#bigbox #mokuai2 #action ul:last-child {
+  list-style: none;
+  margin-right: 120px;
+}
+#bigbox #mokuai2 #action ul:last-child li {
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+  float: right;
+}
+#bigbox #mokuai2 #action ul:last-child li a {
+  text-decoration: none;
+  color: #ccc;
+  border-left-width: 1px;
+  border-left-color: #ccc;
+  border-left-style: solid;
+  padding: 0 8px 0 8px;
+}
+#bigbox #mokuai2 #action ul:last-child li .one:first-child {
+  border: none;
+}
+#bigbox #mokuai2 #action ul:last-child .two:first-child,
+#bigbox #mokuai2 #action ul:last-child .twot:first-child {
+  border: none;
+}
+#bigbox #mokuai2 #logo {
+  width: 1455px;
+  height: 82px;
+  display: flex;
+  align-content: center;
+}
+#bigbox #mokuai2 #logo a {
+  text-decoration: none;
+  margin-right: 11px;
+}
+#bigbox #mokuai2 #logo a:first-child {
+  margin-left: 123px;
+  line-height: 100px;
+  margin-right: 20px;
+}
+#bigbox #mokuai2 #logo a:first-child img {
+  width: 217px;
+  height: 33px;
+}
+#bigbox #mokuai2 #logo a:nth-child(2) {
+  width: 84px;
+  height: 27px;
+  border-radius: 20px;
+  background: #ff8486;
+  color: #fff;
+  margin-top: 26px;
+}
+#bigbox #mokuai2 #logo a:nth-child(2) p {
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+}
+#bigbox #mokuai2 #logo a:nth-child(3) {
+  width: 84px;
+  height: 27px;
+  border-radius: 20px;
+  background: #74c7ff;
+  color: #fff;
+  margin-top: 26px;
+}
+#bigbox #mokuai2 #logo a:nth-child(3) p {
+  line-height: 27px;
+  text-align: center;
+  font-size: 17px;
+}
+#bigbox #mokuai2 #logo a:nth-child(4) {
+  color: black;
+  line-height: 80px;
+}
+#bigbox #mokuai2 #logo a:nth-child(5) {
+  color: black;
+  line-height: 80px;
+}
+#bigbox #mokuai2 #logo a:nth-child(6) {
+  color: black;
+  line-height: 80px;
+}
+#bigbox #mokuai2 #logo > div {
+  width: 270px;
+  height: 35px;
+  background: #f0f0f0;
+  border-radius: 20px;
+  margin-left: 260px;
+  line-height: 82px;
+}
+#bigbox #mokuai2 #logo > div input {
+  text-decoration: none;
+}
+#bigbox #mokuai2 #banner {
+  width: 1455px;
+}
+#bigbox #mokuai2 #banner #photo {
+  width: 100%;
+  height: 596px;
+  background: lightsalmon;
+  border-radius: 0 0 15% 15%;
+  position: relative;
+}
+#bigbox #mokuai2 #banner #show {
+  width: 1200px;
+  background: lightseagreen;
+  position: absolute ;
+  top: 675px;
+  left: 135px;
+  display: flex;
+  justify-content: center;
+}
+#bigbox #mokuai2 #banner #show .register {
+  width: 1200px;
+  height: 99px;
+  border-radius: 10px;
+  background: white;
+  position: absolute;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child {
+  width: 300px;
+  height: 63px;
+  border-right: 1px solid #f5f5f5;
+  margin-top: 18px;
+  float: left;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child > img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #f6f6f6;
+  margin-left: 30px;
+  float: left;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child > p {
+  color: #999;
+  float: right;
+  margin-right: 44px;
+  margin-top: 6px;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child > p a {
+  text-decoration: none;
+  color: black;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child > ul {
+  width: 166px;
+  height: 25px;
+  list-style: none;
+  float: right;
+  margin-top: 4px;
+  margin-right: 28px;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child > ul li {
+  width: 77px;
+  height: 25px;
+  float: left;
+  text-align: center;
+  line-height: 25px;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child > ul li:first-child {
+  border: 1px solid #e88e91;
+  margin-right: 12px;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child > ul li:first-child a {
+  text-decoration: none;
+  color: #de5b60;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child > ul li:last-child {
+  background: #595454;
+}
+#bigbox #mokuai2 #banner #show .register > div:first-child > ul li:last-child a {
+  text-decoration: none;
+  color: #f0d9ac;
+}
+#bigbox #mokuai2 #banner #show .register > ul {
+  width: 680px;
+  height: 63px;
+  margin-top: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  float: left;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li {
+  height: 62px;
+  float: left;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li div:last-child {
+  background: #8b8cea;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li div:first-child {
+  background: #8cc7ff;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li > div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li > div > span {
+  font-size: 15px;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #777;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li:nth-child(2) > div {
+  background: #f87972;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li:nth-child(3) > div {
+  background: #60d1c9;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li:nth-child(4) > div {
+  background: #60d1c9;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li:nth-child(5) > div {
+  background: #f87972;
+}
+#bigbox #mokuai2 #banner #show .register > ul > li:last-child > div {
+  background: #8788e9;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao {
+  float: left;
+  width: 200px;
+  height: 99px;
+  top: 0;
+  right: 0;
+  border-left: 1px solid #f4f4f4;
+  border-right: 2px solid white;
+  border-radius: 0 10px 10px 0;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:first-child {
+  width: 190px;
+  height: 48px;
+  border-bottom: 1px solid #f4f4f4;
+  font-size: 16px;
+  color: #777;
+  line-height: 48px;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:first-child > span {
+  margin-left: 20px;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:last-child {
+  width: 200px;
+  height: 51px;
+  position: absolute;
+  top: -90px;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:last-child > a {
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 10px;
+  display: block;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:last-child > a > span {
+  width: 15px;
+  height: 16px;
+  overflow: hidden;
+  border: 1px solid black;
+  float: left;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:last-child > a:nth-child(2) {
+  width: 62px;
+  height: 16px;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:last-child > a:nth-child(3) {
+  width: 62px;
+  height: 16px;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:last-child > a:nth-child(3) > .yougouma {
+  width: 15px;
+  height: 16px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:last-child > a:nth-child(4) {
+  width: 62px;
+  height: 16px;
+}
+#bigbox #mokuai2 #banner #show .register > #gonggao > div:last-child > a:nth-child(4) > .yougouma {
+  width: 15px;
+  height: 16px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(2) {
+  width: 100%;
+  height: 225px;
+  margin-top: 140px;
+  position: absolute;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(2) ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(2) ul li {
+  float: left;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(2) ul li a {
+  display: block;
+  width: 280px;
+  height: 225px;
+  background: #f9f9f9;
+  border-radius: 15px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(2) ul li a img {
+  width: 280px;
+  height: 225px;
+  border-radius: 15px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) {
+  width: 100%;
+  height: 709px;
+  position: absolute;
+  top: 389px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > p {
+  display: inline-block;
+  font-size: 28px;
+  width: 100%;
+  height: 43px;
+  background: #fff;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section {
+  width: 100%;
+  height: 666px;
+  position: absolute;
+  top: 45px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:first-child {
+  width: 230px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:first-child > img {
+  width: 230px;
+  height: 100%;
+  border-radius: 15px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:last-child {
+  width: 954px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 246px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:last-child > nav {
+  width: 954px;
+  height: 628px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-top: -140px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:last-child > nav > li {
+  width: 230px;
+  height: 290px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:last-child > nav > li > a {
+  display: inline-block;
+  width: 230px;
+  height: 328px;
+  background: #f9f9f9;
+  text-decoration: none;
+  border-radius: 15px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:last-child > nav > li > a > img {
+  width: 127px;
+  height: 161px;
+  margin-top: 44px;
+  margin-left: 51px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:last-child > nav > li > a > p {
+  font-size: 12px;
+  text-align: center;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:last-child > nav > li > a > p:nth-child(2) {
+  color: black;
+  margin-top: 23px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:last-child > nav > li > a > p:nth-child(3) {
+  color: #777;
+  margin-top: 6px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(3) > section > div:last-child > nav > li > a > p:nth-child(4) {
+  color: red;
+  margin-top: 12px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) {
+  width: 100%;
+  height: 371px;
+  position: absolute;
+  top: 1143px;
+  left: 0;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > p {
+  font-size: 28px;
+  height: 60px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > ul > li {
+  width: 230px;
+  height: 310px;
+  border-radius: 15px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > ul > li > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > ul > li > a > div {
+  width: 230px;
+  height: 251px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > ul > li > a > div > img {
+  width: 150px;
+  height: 150px;
+  margin-top: 46px;
+  margin-left: 40px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > ul > li > a > div > p {
+  height: 36px;
+  font-size: 16px;
+  background: #f3f3f3;
+  margin-top: 15px;
+  line-height: 36px;
+  text-align: center;
+  color: #909090;
+  border-radius: 0 0 15px 15px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > ul > li > a > p {
+  text-align: center;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > ul > li > a > p:nth-child(2) {
+  margin-top: 10px;
+  font-size: 16px;
+  color: black;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(4) > ul > li > a > p:nth-child(3) {
+  margin-top: 0px;
+  font-size: 13px;
+  color: red;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(5) {
+  width: 100%;
+  height: 135px;
+  background: lightsteelblue;
+  border-radius: 15px;
+  position: absolute;
+  top: 1561px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(5) > img {
+  width: 100%;
+  height: 135px;
+  border-radius: 15px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(5) > ul {
+  width: 132px;
+  height: 14px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 16px;
+  right: 10px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(5) > ul > li {
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) {
+  width: 100%;
+  height: 1390px;
+  position: absolute;
+  top: 1746px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:first-child {
+  width: 100%;
+  height: 32px;
+  position: absolute;
+  top: 0;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:first-child > p {
+  font-size: 28px;
+  float: left;
+  line-height: 32px;
+  margin-right: 33px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:first-child > ul {
+  list-style: none;
+  line-height: 32px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:first-child > ul > li {
+  float: left;
+  margin-right: 28px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:first-child > ul > li > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:first-child > span {
+  float: right;
+  line-height: 32px;
+  font-size: 15px;
+  margin-right: 0;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:first-child > span > p {
+  font-size: 12px;
+  float: right;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child {
+  width: 100%;
+  height: 1343px;
+  margin-top: -71px;
+  position: absolute;
+  top: 120px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > #tenphotoone {
+  width: 220px;
+  height: 322px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > #tenphotoone > .tenphotoa {
+  width: 220px;
+  height: 322px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > #tenphotoone > .tenphotoa > img {
+  width: 100%;
+  height: 100%;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > li {
+  width: 220px;
+  height: 322px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > li > a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > li > a > div:first-child {
+  width: 100%;
+  height: 161px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > li > a > div:first-child > img {
+  width: 128px;
+  height: 161px;
+  margin-top: 51px;
+  margin-left: 43px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > li > a > div:nth-child(2) {
+  width: 220px;
+  height: 21px;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > li > a > p:nth-child(3) {
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+  margin-top: 90px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(6) > div:last-child > .tenphoto > li > a > p:nth-child(4) {
+  font-size: 12px;
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(7) {
+  width: 100%;
+  height: 225px;
+  position: absolute;
+  top: 3155px;
+}
+#bigbox #mokuai2 #banner #show div:nth-child(7) > img {
+  border-radius: 15px;
+}
+#bigbox #mokuai2 footer {
+  width: 100%;
+  height: 458px;
+  background: #f9f9f9;
+  position: absolute;
+  top: 4070px;
+}
+#bigbox #mokuai2 footer > div:first-child {
+  width: 1200px;
+  height: 91px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-bottom: 2px solid #efefef;
+}
+#bigbox #mokuai2 footer > div:first-child > a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+#bigbox #mokuai2 footer > div:first-child > a > span {
+  font-size: 45px;
+  float: left;
+  line-height: 91px;
+}
+#bigbox #mokuai2 footer > div:first-child > a > p {
+  float: left;
+  line-height: 91px;
+}
+#bigbox #mokuai2 footer > div:first-child > a:nth-child(3) > p {
+  margin-left: 6px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) {
+  width: 1200px;
+  height: 235px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child {
+  width: 805px;
+  height: 235px;
+  display: flex;
+  justify-content: space-between;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div {
+  margin-top: 35px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div > span {
+  color: #333;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div > ul {
+  list-style: none;
+  margin-top: 19px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div > ul > li > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #777;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div > ul > li > a:hover {
+  color: #cb242b;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div:first-child > span {
+  font-size: 15px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div:first-child > span {
+  font-size: 15px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div:first-child > span {
+  font-size: 15px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div:first-child > span {
+  font-size: 15px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div:first-child > span {
+  font-size: 15px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:first-child > div:first-child > span {
+  font-size: 15px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child {
+  width: 300px;
+  height: 235px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div {
+  width: 300px;
+  height: 181px;
+  border-left: 1px solid #e8e8e8;
+  margin-top: 27px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > h1 {
+  text-align: center;
+  color: #575757;
+  margin-top: 13px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > p {
+  font-size: 14px;
+  color: #575757;
+  text-align: center;
+  margin-top: 15px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > div:nth-child(3) {
+  width: 190px;
+  height: 40px;
+  background: #333;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  line-height: 40px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > div:nth-child(3) > span {
+  font-size: 15px;
+  color: white;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > div:nth-child(3) > p {
+  color: white;
+  font-size: 15px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > div:last-child {
+  width: 232px;
+  height: 23px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 31px;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > div:last-child > span {
+  font-size: 15px;
+  color: #303030;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > div:last-child > ul {
+  width: 140px;
+  height: 23px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > div:last-child > ul > li > a {
+  text-decoration: none;
+}
+#bigbox #mokuai2 footer > div:nth-child(2) > div:last-child > div > div:last-child > ul > li > a > span {
+  color: #303030;
+  font-size: 23px;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) {
+  width: 1200px;
+  height: 128px;
+  margin: 0 auto;
+  position: relative;
+  border-top: 1px solid #ececec;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:first-child {
+  width: 90px;
+  height: 19px;
+  position: absolute;
+  top: 33px;
+  left: 0;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:first-child > img {
+  width: 100%;
+  height: 100%;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:nth-child(2) {
+  position: absolute;
+  top: 33px;
+  left: 113px;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:nth-child(2) > ul {
+  list-style: none;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:nth-child(2) > ul > li {
+  float: left;
+  font-size: 12px;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:nth-child(2) > ul > li > a {
+  text-decoration: none;
+  color: #777;
+  border-right: 2px solid #e7e7e7;
+  margin-left: 6px;
+  padding-right: 7px;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:nth-child(2) > ul > li > a:hover {
+  color: #cb242b;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:nth-child(2) > ul > li:first-child > a {
+  margin-left: 0;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:nth-child(2) > ul > li:last-child > a {
+  border: none;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:nth-child(2) > span {
+  font-size: 12px;
+  color: #a4a4a4;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:last-child {
+  width: 77px;
+  height: 25px;
+  border: 1px solid #dfdfdf;
+  position: absolute;
+  top: 31px;
+  right: 0;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:last-child > a {
+  text-decoration: none;
+}
+#bigbox #mokuai2 footer > div:nth-child(3) > div:last-child > a > img {
+  width: 100%;
+  height: 100%;
+}
+#bigbox #about {
+  width: 40px;
+  height: 160px;
+  background: #000;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  list-style: none;
+}
+#bigbox #about li {
+  width: 100%;
+  height: 40px;
+  background: red;
+}
