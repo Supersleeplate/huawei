@@ -68,7 +68,13 @@
   margin-top: 90px;
   margin-left: 60px;
 }
-#box > div:nth-child(4) > input {
+#box > div:nth-child(4) > div:nth-child(1),
+#box > div:nth-child(4) div:nth-child(2) {
+  width: 640px;
+  height: 40px;
+}
+#box > div:nth-child(4) > div:nth-child(1) > input,
+#box > div:nth-child(4) div:nth-child(2) > input {
   width: 350px;
   height: 40px;
   background: #f2f2f2;
@@ -76,9 +82,20 @@
   border-radius: 5px;
   padding: 4px 0 0 10px;
   font-size: 14px;
+  outline: none;
+  float: left;
 }
-#box > div:nth-child(4) > input:nth-child(2) {
+#box > div:nth-child(4) > div:nth-child(1) > span,
+#box > div:nth-child(4) div:nth-child(2) > span {
+  float: left;
+  line-height: 40px;
+}
+#box > div:nth-child(4) > div:nth-child(1) > input:nth-child(2),
+#box > div:nth-child(4) div:nth-child(2) > input:nth-child(2) {
   margin-top: 25px;
+}
+#box > div:nth-child(4) > div:nth-child(2) {
+  margin-top: 15px;
 }
 #box > div:nth-child(4) > div:nth-child(3) {
   margin-top: 15px;
@@ -89,7 +106,13 @@
   text-decoration: none;
 }
 #box > div:nth-child(4) > input:nth-child(4) {
+  width: 350px;
+  height: 40px;
   margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
   background: rgba(202, 20, 29, 0.3);
   color: white;
 }

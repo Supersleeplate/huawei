@@ -54,14 +54,6 @@
         }
     }
 
-    // 邮件地址注册
-    &>div:nth-child(3){
-        top: 173px;
-        &>span{
-            margin-right: 10px;
-        }
-    }
-
     // 华为注册账号大字
     &>div:nth-child(4){
         position: absolute;
@@ -131,16 +123,21 @@
                 &>input{
                     width: 240px;
                     height: 34px;
-                    margin-left: -100px;
+                    margin-left: -30px;
                     border: none;
                     border-left: 1px solid #d9d9d9;
                     background: #f2f2f2;
                     padding-left: 10px;
                     font-size: 15px;
+                    outline: none;
+                }
+                &>span{
+                    float: right;
+                    margin-right: 10px;
                 }
             }
 
-            // 短信验证、密码、确认密码  input
+            // 邮箱、密码、确认密码  input
             &>div:nth-child(4),div:nth-child(5),div:nth-child(6){
                 margin-top: 20px;
                 &>input{
@@ -151,15 +148,14 @@
                     padding-left: 10px;
                     height: 50px;
                     border-radius: 10px;
+                    outline: none;
                 }
             }
 
-            // 短信验证码
+            // 邮箱
             &>div:nth-child(4){
                 margin-top: 20px;
-                &>a{
-                    text-decoration: none;
-                    color: #97c6f7;
+                &>span{
                     float: right;
                     margin-right: 15px;
                 }
@@ -170,6 +166,7 @@
                 &>span{
                     float: right;
                     margin-right: 15px;
+                    cursor: pointer;
                 }
 
             }
@@ -210,12 +207,12 @@
             &>input:last-child{
                 width: 300px;
                 height: 50px;
-                background: #9fceff;
                 font-size: 18px;
                 color: white;
                 margin-top: 60px;
                 border: none;
                 border-radius: 10px;
+                outline: none;
             }
         }
     }

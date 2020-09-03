@@ -77,17 +77,30 @@
         float: left;
         margin-top: 90px;
         margin-left: 60px;
-        &>input{
-            width: 350px;
+        &>div:nth-child(1),div:nth-child(2){
+            width: 640px;
             height: 40px;
-            background: #f2f2f2;
-            border: none;
-            border-radius: 5px;
-            padding: 4px 0 0 10px;
-            font-size: 14px;
+            &>input{
+                width: 350px;
+                height: 40px;
+                background: #f2f2f2;
+                border: none;
+                border-radius: 5px;
+                padding: 4px 0 0 10px;
+                font-size: 14px;
+                outline: none;
+                float: left;
+            }
+            &>span{
+                float: left;
+                line-height: 40px;
+            }
+            &>input:nth-child(2){
+                margin-top: 25px;
+            }
         }
-        &>input:nth-child(2){
-            margin-top: 25px;
+        &>div:nth-child(2){
+            margin-top: 15px;
         }
         &>div:nth-child(3){
             margin-top: 15px;
@@ -97,8 +110,15 @@
                 text-decoration: none;
             }
         }
+        
         &>input:nth-child(4){
+            width: 350px;
+            height: 40px;
             margin-top: 40px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
             background: rgba(202,20,29,.3);
             color: white;
         }

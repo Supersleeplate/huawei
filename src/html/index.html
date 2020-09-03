@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/font_2032435_7b3yfplnnof/iconfont.css">
     <script src="../js/index.js" type="module"></script>
+    <script src="../js/banner.js" type="module"></script>
 </head>
 
 <body>
@@ -49,10 +50,10 @@
                 <a href="">
                     <img src="../img/logo.png" alt="">
                 </a>
-                <a href="">
+                <a href="https://sale.vmall.com/huaweizone.html">
                     <p>华为专区</p>
                 </a>
-                <a href="">
+                <a href="https://sale.vmall.com/honor.html">
                     <p>荣耀专区</p>
                 </a>
                 <a href="">华为 P40 系列</a>
@@ -67,8 +68,72 @@
             <div id="banner">
                 <!-- 轮播图 -->
                 <div id="photo">
-                    <img src="https://sale.vmall.com/honor.html" alt="">
+                    <!-- 轮播图仅图 -->
+                    <div class="justphoto">
+                        <div class="activephoto">
+                            <a href=""></a>
+                        </div>
+                        <div>
+                            <a href=""></a>
+                        </div>
+                        <div>
+                            <a href=""></a>
+                        </div>
+                        <div>
+                            <a href=""></a>
+                        </div>
+                        <div>
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    <!-- 左右尖括号 -->
+                    <div class="next"><a href="javascript:;">></a></div>
+                    <div class="prev"><a href="javascript:;">></a></div>
+                    <!-- 轮播图下的小点 -->
+                    <ul>
+                        <li class="active">
+                            <a href="javascript:;"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"></a>
+                        </li>
+                    </ul>
                 </div>
+
+                <!-- 轮播图 -->
+                <!-- <div class="sliders">
+                <div class="img-box">
+                    <img src="../img/banner1.jpg" alt="" class="active">
+                    <img src="../img/banner2.jpg" alt="">
+                    <img src="../img/banner3.jpg" alt="">
+                    <img src="../img/banner4.jpg" alt="">
+                    <img src="../img/banner5.jpg" alt="">
+                </div>
+                <div class="btn-left btn">
+                    <span>&lt;</span>
+                </div>
+
+                <div class="btn-right btn">
+                    <span>&gt;</span>
+                </div>
+                <ol>
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div> -->
+
                 <!-- 产品展示区 -->
                 <div id="show">
 
@@ -78,13 +143,13 @@
                         <!-- 登录和用户头像 -->
                         <div>
                             <img src="../img/yonghu.png" alt="">
-                            <p>您好！请 <a href="">登录</a> / <a href="">注册</a></p>
+                            <p>您好！请 <a href="./login.html">登录</a> / <a href="./signin.html">注册</a></p>
                             <ul>
                                 <li>
-                                    <a href="">新人福利</a>
+                                    <a href="./happy/xrfl.html">新人福利</a>
                                 </li>
                                 <li>
-                                    <a href="">会员频道</a>
+                                    <a href="./happy/hypd.html">会员频道</a>
                                 </li>
                             </ul>
                         </div>
@@ -360,11 +425,11 @@
                         <!-- 图 -->
                         <div id="photojs">
                             <ul class="tenphoto">
-                                <!-- <li id="tenphotoone" class="tenphoto1">
+                                <li id="tenphotoone" class="tenphoto1">
                                     <a href="" class="tenphotoa">
                                         <img src="../img/sjbig.jpg" alt="">
                                     </a>
-                                </li> -->
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -382,7 +447,7 @@
 
                 <!-- 百强企业 品质联保 -->
                 <div>
-                    <a href="">
+                    <a href="./login.html">
                         <span class="iconfont icon-xunzhang"></span>
                         <p>百强企业 品质保证</p>
                     </a>

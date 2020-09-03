@@ -7,6 +7,7 @@
     <title>账号注册</title>
     <link rel="stylesheet" href="../css/signin.css">
     <link rel="stylesheet" href="../css/font_2032435_7b3yfplnnof/iconfont.css">
+    <script src="../js/signin.js" type="module"></script>
 </head>
 
 <body>
@@ -23,15 +24,15 @@
         </header>
 
         <!-- 手机号注册 -->
-        <div><span class="iconfont icon-weibo"></span>手机号注册</div>
+        <div><span class="iconfont icon-weibo"></span>邮件地址注册</div>
 
         <!-- 邮件地址注册 -->
-        <div><span class="iconfont icon-weixin"></span>邮件地址注册</div>
+        <div><span></span></div>
 
         <!-- 华为注册账号大字 -->
         <div>
             <p>华为账号注册</p>
-            <span>已有账号，<a href="">去登录<span class="iconfont icon-youjiankuohao"></span></a>
+            <span>已有账号，<a href="./login.html">去登录<span class="iconfont icon-youjiankuohao"></span></a>
             </span>
 
             <!-- 表单 -->
@@ -53,31 +54,36 @@
                     <select name="" id="">
                         <option value="+86(中国)">+86(中国)</option>
                     </select>
-                    <input type="text" placeholder="请输入手机号">
+                    <input id="phone" type="text" placeholder="请输入手机号">
+                    <span class="phone"></span>
                 </div>
 
                 <!-- 用于防止冲突 -->
                 <span></span>
 
 
-                <!-- 短信验证码 -->
+                <!-- 输入邮箱 -->
                 <div>
-                    <input type="text" placeholder="短信验证码">
-                    <a href="">获取验证码</a>
+                    <input id="email" type="text" placeholder="请输入邮箱">
+                    <span class="email"></span>
                 </div>
 
                 <!-- 密码 -->
                 <div>
-                    <input type="text" placeholder="密码">
+                    <input id="password" type="password" placeholder="密码">
+                    <span class="password"></span>
+
                     <!-- 没有搞，用别的代替一下 -->
-                    <span class="iconfont icon-weixin"></span>
+                    <span id="eye1" class="iconfont icon-weixin"></span>
                 </div>
 
                 <!-- 确认密码 -->
                 <div>
-                    <input type="text" placeholder="确认密码">
+                    <input id="checkpass" type="password" placeholder="确认密码">
+                    <span class="checkpass"></span>
+
                     <!-- 没有搞，用别的代替一下 -->
-                    <span class="iconfont icon-weixin"></span>
+                    <span id="eye2" class="iconfont icon-weixin"></span>
                 </div>
 
                 <!-- 出生日期 -->
@@ -95,7 +101,7 @@
                 </div>
 
                 <!-- 注册按钮 -->
-                <input type="submit" value="注册">
+                <input id="btn" type="button" value="注册" disabled>
 
             </form>
 

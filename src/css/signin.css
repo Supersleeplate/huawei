@@ -48,12 +48,6 @@
 #box > div:nth-child(2) > span {
   margin-right: 10px;
 }
-#box > div:nth-child(3) {
-  top: 173px;
-}
-#box > div:nth-child(3) > span {
-  margin-right: 10px;
-}
 #box > div:nth-child(4) {
   position: absolute;
   top: 155px;
@@ -116,12 +110,17 @@
 #box > div:nth-child(4) > #form > div:nth-child(2) > input {
   width: 240px;
   height: 34px;
-  margin-left: -100px;
+  margin-left: -30px;
   border: none;
   border-left: 1px solid #d9d9d9;
   background: #f2f2f2;
   padding-left: 10px;
   font-size: 15px;
+  outline: none;
+}
+#box > div:nth-child(4) > #form > div:nth-child(2) > span {
+  float: right;
+  margin-right: 10px;
 }
 #box > div:nth-child(4) > #form > div:nth-child(4),
 #box > div:nth-child(4) > #form div:nth-child(5),
@@ -138,13 +137,12 @@
   padding-left: 10px;
   height: 50px;
   border-radius: 10px;
+  outline: none;
 }
 #box > div:nth-child(4) > #form > div:nth-child(4) {
   margin-top: 20px;
 }
-#box > div:nth-child(4) > #form > div:nth-child(4) > a {
-  text-decoration: none;
-  color: #97c6f7;
+#box > div:nth-child(4) > #form > div:nth-child(4) > span {
   float: right;
   margin-right: 15px;
 }
@@ -152,6 +150,7 @@
 #box > div:nth-child(4) > #form div:nth-child(6) > span {
   float: right;
   margin-right: 15px;
+  cursor: pointer;
 }
 #box > div:nth-child(4) > #form > div:nth-child(7) {
   margin-top: 20px;
@@ -173,12 +172,12 @@
 #box > div:nth-child(4) > #form > input:last-child {
   width: 300px;
   height: 50px;
-  background: #9fceff;
   font-size: 18px;
   color: white;
   margin-top: 60px;
   border: none;
   border-radius: 10px;
+  outline: none;
 }
 #box > footer {
   width: 100%;
